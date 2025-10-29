@@ -1,93 +1,89 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muhammad Usman | Portfolio</title>
+  <title>Muhammad Usman - Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Muhammad Usman</h1>
-    <p>BS Computer Science Student | FAST NUCES</p>
+    <div class="container">
+      <h1>Muhammad Usman</h1>
+      <nav>
+        <a href="#about" class="active">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>Personal Information</h2>
-    <ul>
-      <li><strong>Email:</strong> f250523@nu.edu.pk</li>
-      <li><strong>Phone:</strong> +92 335 *******</li>
-      <li><strong>Address:</strong> Street-III, Lahore, Pakistan</li>
-    </ul>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <div class="edu-item">
-      <h3>Bachelor of Science in Computer Science (BSCS)</h3>
-      <p><strong>FAST – NUCES, CFD Campus</strong> | 2025 – Present</p>
-      <p>Current CGPA: -- / 4.00 | Expected Graduation: 2029</p>
-    </div>
-    <div class="edu-item">
-      <h3>Intermediate (ICS-Physics)</h3>
-      <p><strong>Best Group of Colleges, Multan</strong> | 2022 – 2024</p>
-      <p>Percentage: 89.9%</p>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a Computer Science student at FAST-NUCES, passionate about building practical and efficient systems. 
+      I love C++ for its precision and power, and I’m always exploring new tools that make code cleaner and faster.</p>
     </div>
   </section>
 
-  <section id="skills">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li><strong>Programming:</strong> C++, C, JavaScript, HTML, CSS, Ruby, Rust</li>
-      <li><strong>Database:</strong> MySQL</li>
-      <li><strong>Tools & Tech:</strong> GitHub, Linux</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Academic Projects</h2>
-    <div class="project">
-      <h3>Mess Management System (C++)</h3>
-      <p>Program to manage food records, billing, discounts, and total sales.</p>
-    </div>
-    <div class="project">
-      <h3>Console Game – Tic-Tac-Toe (C++)</h3>
-      <p>Classic 2-player Tic-Tac-Toe game with input validation and replay functionality.</p>
-    </div>
-    <div class="project">
-      <h3>Portfolio Website (HTML, CSS, JS)</h3>
-      <p>Personal responsive website displaying profile, skills, and projects.</p>
+  <section id="education" class="education">
+    <div class="container">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>BS Computer Science</strong> – FAST-NUCES, CFD Campus (2025 – Present)</li>
+        <li><strong>Intermediate (ICS-PHY)</strong> – Best Group of Colleges, Multan (2022 – 2024)</li>
+      </ul>
     </div>
   </section>
 
-  <section id="achievements">
-    <h2>Achievements & Activities</h2>
-    <ul>
-      <li>Participated in Thinkathon</li>
-      <li>Participated in Google Code Jam</li>
-    </ul>
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="tags">
+        <span>C / C++</span>
+        <span>HTML / CSS / JS</span>
+        <span>Rust</span>
+        <span>Ruby</span>
+        <span>MySQL</span>
+        <span>Linux</span>
+        <span>Git / GitHub</span>
+      </div>
+    </div>
   </section>
 
-  <section id="softskills">
-    <h2>Soft Skills</h2>
-    <ul>
-      <li>Teamwork & Collaboration</li>
-      <li>Problem Solving</li>
-    </ul>
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Mess Management System (C++)</h3>
+          <p>Program to manage food billing, discounts, and total sales with data validation.</p>
+        </div>
+        <div class="card">
+          <h3>Tic-Tac-Toe Console Game (C++)</h3>
+          <p>Two-player console game with win detection and replay functionality.</p>
+        </div>
+        <div class="card">
+          <h3>Portfolio Website</h3>
+          <p>This responsive personal site built purely with HTML and CSS.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="languages">
-    <h2>Languages</h2>
-    <ul>
-      <li>Urdu – Native</li>
-      <li>English – Fluent</li>
-      <li>Japanese – Learning</li>
-    </ul>
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:f250523@nu.edu.pk">f250523@nu.edu.pk</a></p>
+      <p>Phone: +92 335 ******</p>
+      <p>Address: Street-III, Lahore, Pakistan</p>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Muhammad Usman | All Rights Reserved</p>
+    <p>© 2025 Muhammad Usman — Built with HTML & CSS only</p>
   </footer>
 </body>
 </html>
